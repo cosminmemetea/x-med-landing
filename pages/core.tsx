@@ -27,7 +27,7 @@ const Core = () =>{
             target="_blank"
             rel="noopener noreferrer"
           >
-            By XΞDΞUM
+           Learn, create and innovate with us.
           </a>
         </div>
       </div>
