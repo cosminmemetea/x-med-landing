@@ -45,3 +45,5 @@ Color Scheme
 
 #192ABF
 #21A8F4
+
+Image size for the caroucel : 584x712

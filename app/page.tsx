@@ -1,12 +1,7 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
-
-
 const inter = Inter({ subsets: ['latin'] })
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 
  const Home = () => {
@@ -50,7 +45,6 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
         </div>
       {/* </div> */}
       <div>
-
       </div>
       <div className={styles.grid}>
 
