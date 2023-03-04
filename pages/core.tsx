@@ -38,6 +38,7 @@ const Core = () =>{
           </div>
           <div className={core_styles.detail}>
               <h2>Xhann, the Powerhouse Pathfinder</h2>
+              <p> </p>             
           </div>
         </div>
         <div className={core_styles.swipItem}>
@@ -46,6 +47,7 @@ const Core = () =>{
           </div>
           <div className={core_styles.detail}>
               <h2>Serph, the Techno Titan</h2>
+              <p> </p>
           </div>
         </div>
         <div className={core_styles.swipItem}>
@@ -62,6 +64,7 @@ const Core = () =>{
           </div>
           <div className={core_styles.detail}>
               <h2>Al Ciapone, the Cyber Conqueror</h2>
+              <p> </p>
           </div>
         </div>
 
