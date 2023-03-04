@@ -4,8 +4,12 @@ import styles from './page.module.css'
 
 
 const inter = Inter({ subsets: ['latin'] })
+import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-export default function Home() {
+
+ const Home = () => {
   return (
     
     <main className={styles.main}>
@@ -30,15 +34,24 @@ export default function Home() {
                   <span className={styles.catInfo}> XΞDΞUM CORE  </span>
                   <span className={styles.cat}>    </span>
                   <div className={styles.media}> 
-                     <Image className={styles.img}
+                  <a
+                    href="/core"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                      <Image className={styles.img}
                        src={`/imgs/ad.gif`} 
                        width={350}
                        height={350}
                        alt=""
-                       ></Image></div>
-                </div>
+                       ></Image>
+                  </a>
+                  </div>
+        </div>
       {/* </div> */}
+      <div>
 
+      </div>
       <div className={styles.grid}>
 
         <a
@@ -85,3 +98,4 @@ export default function Home() {
     </main>
   )
 }
+export default Home;
