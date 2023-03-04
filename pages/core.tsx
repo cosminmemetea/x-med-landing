@@ -1,18 +1,22 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Image from 'next/image'
 import styles from '../app/page.module.css'
 import core_styles from '../styles/pages/core.module.css'
 import { Inter } from '@next/font/google'
 import '../app/globals.css'
-
+import Head from 'next/head';
 const inter = Inter({ subsets: ['latin'] })
 const Core = () =>{
   return (
-
+    
      <main className={styles.main}>
-
+      <Head>
+        <title>XΞDΞUM - ACADΞMY</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="description" content="Motivated people together." />
+        <link rel="icon" href="/logo_vector-file.svg" />
+      </Head>
       <div className={styles.description}>
         <p>
         XΞDΞUM Coding Academy: Where passion meets innovation. 
