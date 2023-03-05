@@ -1,60 +1,37 @@
-import Image from 'next/image'
+import React from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import styles from '../app/page.module.css'
 import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+import '../app/globals.css'
+import Head from 'next/head';
 const inter = Inter({ subsets: ['latin'] })
-
-
- const Home = () => {
+const Roadmap = () => {
   return (
     
-    <main className={styles.main}>
-
+     <main className={styles.main}>
+      <Head>
+        <title>XΞDΞUM - ROADMAP</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="description" content="Motivated people together." />
+        <link rel="icon" href="/logo_vector-file.svg" />
+      </Head>
       <div className={styles.description}>
-        {/* <p>
-          Discover a better healthcare journey with us.    
-        </p> */}
-        {/* <p>
-           Spend less time navigating medical systems and more time focusing on what matters most: your health.
-        </p> */}
-        <p> Revolutionize healthcare with effortless medical system navigation and care.
+        <p>
+        XΞDΞUM Roadmap 
         </p>
-        {/* <p>
-        Where passion meets innovation: creating a healthier world. 
-        </p> */}
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By XΞDΞUM
+           Together we build a better future.
           </a>
         </div>
       </div>
+ 
 
-      {/* <div className={styles.center}> */}
-        <div className ={styles.service} >
-                  <span className={styles.catInfo}> XΞDΞUM ACADΞMY </span>
-                  <span className={styles.cat}>    </span>
-                  <div className={styles.media}> 
-                  <a
-                    href="/core"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                      <Image className={styles.img}
-                       src={`/imgs/ad.gif`} 
-                       width={350}
-                       height={350}
-                       alt=""
-                       ></Image>
-                  </a>
-                  </div>
-        </div>
-      {/* </div> */}
-      <div>
-      </div>
-      <div className={styles.grid}>
+       <div className={styles.grid}>
 
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -83,7 +60,7 @@ const inter = Inter({ subsets: ['latin'] })
         </a>
 
         <a
-          href="/roadmap"
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -97,7 +74,8 @@ const inter = Inter({ subsets: ['latin'] })
         </a>
       </div>
 
-    </main>
-  )
+     </main>
+  );
 }
-export default Home;
+
+export default Roadmap;
