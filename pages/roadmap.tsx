@@ -4,7 +4,11 @@ import styles from '../app/page.module.css'
 import { Inter } from '@next/font/google'
 import '../app/globals.css'
 import Head from 'next/head';
+import Image from 'next/image';
 const inter = Inter({ subsets: ['latin'] })
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import styles_road from '../styles/Roadmap.module.css'
+import 'react-vertical-timeline-component/style.min.css';
 const Roadmap = () => {
   return (
     
@@ -13,7 +17,7 @@ const Roadmap = () => {
         <title>XΞDΞUM - ROADMAP</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta name="description" content="Motivated people together." />
-        <link rel="icon" href="/logo_vector-file.svg" />
+        <link rel="icon" href="logo_vector-file.svg" />
       </Head>
       <div className={styles.description}>
         <p>
@@ -30,6 +34,113 @@ const Roadmap = () => {
         </div>
       </div>
  
+    <div className={styles.center}>
+
+
+<VerticalTimeline>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: '#000', color: '#fff'}}
+    date="March 2023 - June 2023"
+    iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+    icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Pre-Development</h3>
+    <h4 className="vertical-timeline-element-subtitle">Phase 1</h4>
+
+    <p >
+       <p> Assemble a core team of geat developers and designers. </p>
+       <p> Develop and implement a comprehensive training program for the team.</p>
+       {/* 3. Conduct market research to identify user needs and competition.
+       4. Create a detailed project plan, including timelines and milestones.
+       5. Secure necessary funding and resources.  */}
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="2010 - 2011"
+    iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+    icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Art Director</h3>
+    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <p>
+      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="2008 - 2010"
+    iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+    icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Web Designer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+    <p>
+      User Experience, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="2006 - 2008"
+    iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+    icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Web Designer</h3>
+    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <p>
+      User Experience, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="April 2013"
+    iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+    icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
+    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+    <p>
+      Strategy, Social Media
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="November 2012"
+    iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+    icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
+    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+    <p>
+      Creative Direction, User Experience, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="2002 - 2006"
+    iconStyle={{ background: 'rgb(0, 0, 0)', color: '#000' }}
+    icon={<></>}
+
+  >
+    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
+    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+    <p>
+      Creative Direction, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+    icon={<></>}
+  />
+</VerticalTimeline>
+    </div>
 
        <div className={styles.grid}>
 
@@ -73,7 +184,7 @@ const Roadmap = () => {
           </p>
         </a>
       </div>
-
+ 
      </main>
   );
 }
