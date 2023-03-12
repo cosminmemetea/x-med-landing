@@ -41,7 +41,7 @@ const Core = () =>{
             <img src={`/imgs/xyndor.jpg`} alt="Slide 1" />
           </div>
           <div className={core_styles.detail}>
-              <h2>Xhann, the Powerhouse Pathfinder</h2>
+              <h2>Xshann, the Powerhouse Pathfinder</h2>
               <p> </p>             
           </div>
         </div>

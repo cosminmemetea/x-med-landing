@@ -74,3 +74,17 @@ Phase 3: Launch and Growth (Month 19-24)
 3. Monitor user feedback and continuously improve the application based on feedback.
 4. Expand the reach of the application by partnering with healthcare institutions globally.
 5. Explore new opportunities to leverage emerging technologies and improve the X-MED application.
+
+What I need: timeline with scroll indicator. With a spin and fade in effect for each point in milestone.
+React Timeline in nextjs this is what I need Vertical progress bar with bookmarks support
+
+
+# https://dashboard.godaddy.com/venture?domainName=xedeum.net&bypass=true 
+
+1. https://github.com/rcdexta/react-event-timeline
+2. https://github.com/stephane-monnot/react-vertical-timeline
+3. https://reactjsexample.com/a-vertical-timeline-component-for-react/
+5. https://veysiyildiz.github.io/vertical-timeline-component-for-react/#/
+6. https://www.w3schools.com/howto/howto_css_timeline.asp --> this one is preffered maybe fully customizable
+7. https://reactjsexample.com/tag/responsive/
+8. https://www.w3schools.com/howto/howto_css_flip_card.asp 
