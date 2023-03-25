@@ -4,10 +4,7 @@ import styles from '../app/page.module.css'
 import { Inter } from '@next/font/google'
 import '../app/globals.css'
 import Head from 'next/head';
-import Image from 'next/image';
 const inter = Inter({ subsets: ['latin'] })
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-// import styles_road from '../styles/Roadmap.module.css'
 import 'react-vertical-timeline-component/style.min.css';
 import Timeline from '@/components/Timeline';
 const Roadmap = () => {
@@ -37,7 +34,7 @@ const Roadmap = () => {
  
     <div className={styles.center}>
 
-<Timeline></Timeline>
+    <Timeline></Timeline>
     </div>
 
        <div className={styles.grid}>

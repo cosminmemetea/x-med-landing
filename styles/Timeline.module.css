@@ -1,13 +1,29 @@
-.timeline-container{
-    display: flex;
-    flex-direction: column;
-    margin: 40px 0;
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  position: relative; /* add position relative for the pseudo element to position properly */
 }
-.timeline-container::after{
-   background-color: #e17b77;
-   content: '';
-   position: absolute;
-   width: 4px;
-   height: 80%;
-   left: calc(50% - 2px);
+
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  left: calc(50% - 2px);
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  margin: auto;
+  border-radius: 999px;
+  box-shadow: 0 0 10px #03e9f4, 0 0 20px #03e9f4, 0 0 40px #03e9f4, 0 0 80px #03e9f4;
+  animation: glowing 1.5s ease-in-out infinite;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 10px #03e9f4, 0 0 20px #03e9f4, 0 0 30px #03e9f4, 0 0 40px #03e9f4;
+  }
+  100% {
+    box-shadow: 0 0 20px #03e9f4, 0 0 40px #03e9f4, 0 0 60px #03e9f4, 0 0 80px #03e9f4;
+  }
 }
