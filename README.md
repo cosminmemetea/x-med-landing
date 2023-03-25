@@ -88,3 +88,167 @@ React Timeline in nextjs this is what I need Vertical progress bar with bookmark
 6. https://www.w3schools.com/howto/howto_css_timeline.asp --> this one is preffered maybe fully customizable
 7. https://reactjsexample.com/tag/responsive/
 8. https://www.w3schools.com/howto/howto_css_flip_card.asp 
+
+
+
+---
+<VerticalTimeline >
+  <VerticalTimelineElement
+    className={`vertical-timeline-element--work ${styles_road.road}`}
+    contentStyle={{ background: '#000', color: '#fff'}}
+    date="March 2023 - June 2023"
+    iconStyle={{ 
+ position: 'absolute',
+    top: '50%',
+    left: '-10px',
+    transform: 'translateY(-50%)',
+    width: '10px',
+    height: '10px',
+    borderRadius: '50%',
+    backgroundColor: '#8DEBF6',
+    }}
+    // icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Assemble the core team of geat developers and designers</h3>
+    <h4 className="vertical-timeline-element-subtitle">Phase 1</h4>
+
+    {/* <p> 1. .</p> */}
+    {/* <p> 2.</p>   */}
+       {/* 3. Conduct market research to identify user needs and competition.
+       4. Create a detailed project plan, including timelines and milestones.
+       5. Secure necessary funding and resources.  */}
+ 
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={`vertical-timeline-element--work ${styles_road.road}`}
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="2010 - 2011"
+    // iconStyle={{ 
+    //   // position: "absolute",
+    //   left: "calc(50% + 22px)",
+    //   top: "calc(50% - 40px)",
+    //   width: "16px",
+    //   height: "16px",
+    //   borderRadius: "50%",
+    //   backgroundColor: "#8DEBF6"
+    // }}
+    // icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Develop and implement a comprehensive training program for the team.</h3>
+    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <p>
+      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={`vertical-timeline-element--work ${styles_road.road}`}
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="2008 - 2010"
+    // iconStyle={{ 
+    //   // position: "absolute",
+    //   left: "calc(50% + 22px)",
+    //   top: "calc(50% - 40px)",
+    //   width: "16px",
+    //   height: "16px",
+    //   borderRadius: "50%",
+    //   backgroundColor: "#8DEBF6"
+    // }}
+    // icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Web Designer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+    <p>
+      User Experience, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={`vertical-timeline-element--work ${styles_road.road}`}
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="2006 - 2008"
+    // iconStyle={{ 
+    //   // position: "absolute",
+    //   left: "calc(50% + 22px)",
+    //   top: "calc(50% - 40px)",
+    //   width: "16px",
+    //   height: "16px",
+    //   borderRadius: "50%",
+    //   backgroundColor: "#8DEBF6"
+    // }}
+    // icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Web Designer</h3>
+    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <p>
+      User Experience, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={`vertical-timeline-element--work ${styles_road.road}`}
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="April 2013"
+    // iconStyle={{ 
+    //   // position: "absolute",
+    //   left: "calc(50% + 22px)",
+    //   top: "calc(50% - 40px)",
+    //   width: "16px",
+    //   height: "16px",
+    //   borderRadius: "50%",
+    //   backgroundColor: "#8DEBF6"
+    // }}
+    // icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
+    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+    <p>
+      Strategy, Social Media
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={`vertical-timeline-element--work ${styles_road.road}`}
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="November 2012"
+    // iconStyle={{ 
+    //   // position: "absolute",
+    //   left: "calc(50% + 22px)",
+    //   top: "calc(50% - 40px)",
+    //   width: "16px",
+    //   height: "16px",
+    //   borderRadius: "50%",
+    //   backgroundColor: "#8DEBF6"
+    // }}
+    // icon={<></>}
+  >
+    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
+    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+    <p>
+      Creative Direction, User Experience, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={`vertical-timeline-element--work ${styles_road.road}`}
+    contentStyle={{ background: '#000', color: '#fff' }}
+    date="2002 - 2006"
+    // iconStyle={{ 
+    //   // position: "absolute",
+    //   left: "calc(50% + 22px)",
+    //   top: "calc(50% - 40px)",
+    //   width: "16px",
+    //   height: "16px",
+    //   borderRadius: "50%",
+    //   backgroundColor: "#8DEBF6"
+    // }}
+    // icon={<></>}
+
+  >
+    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
+    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+    <p>
+      Creative Direction, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={`vertical-timeline-element--work ${styles_road.road}`}
+    // iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+    // icon={<></>}
+  />
+</VerticalTimeline>
