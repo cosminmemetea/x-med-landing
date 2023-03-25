@@ -131,3 +131,38 @@
         display: none;
     }
 }
+
+
+
+@media only screen and (max-width: 480px) {
+  .timeline-item {
+    justify-content: flex-end;
+    padding-right: 0px;
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .timeline-item:nth-child(odd) {
+    align-self: flex-end;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-item-content {
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-item-content::after {
+    box-shadow: -1px 1px 1px rgba(255, 255, 255, 0.2);
+    right: auto;
+    left: -7.5px;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-item-content .tag {
+    left: auto;
+    right: 5px;
+  }
+
+  .timeline-item-content {
+    max-width: 100%;
+  }
+}
