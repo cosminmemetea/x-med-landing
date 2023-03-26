@@ -10,7 +10,7 @@ const Team = () => {
     
      <main className={styles.main}>
       <Head>
-        <title>XΞDΞUM - PARTNERS</title>
+        <title>Team ➤ x-edeum </title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta name="description" content="Motivated people together." />
         <link rel="icon" href="/logo_vector-file.svg" />
@@ -21,7 +21,7 @@ const Team = () => {
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
           >

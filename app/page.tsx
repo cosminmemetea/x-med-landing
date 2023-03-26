@@ -8,19 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
   return (
     
     <main className={styles.main}>
-
       <div className={styles.description}>
-        {/* <p>
-          Discover a better healthcare journey with us.    
-        </p> */}
-        {/* <p>
-           Spend less time navigating medical systems and more time focusing on what matters most: your health.
-        </p> */}
         <p> Revolutionize healthcare with effortless medical system navigation and care.
         </p>
-        {/* <p>
-        Where passion meets innovation: creating a healthier world. 
-        </p> */}
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -34,7 +24,7 @@ const inter = Inter({ subsets: ['latin'] })
 
       {/* <div className={styles.center}> */}
         <div className ={styles.service} >
-                  <span className={styles.catInfo}> XΞDΞUM ACADΞMY </span>
+                  <span className={styles.catInfo}> XΞDΞUM CORΞ </span>
                   <span className={styles.cat}>    </span>
                   <div className={styles.media}> 
                   <a
@@ -57,7 +47,7 @@ const inter = Inter({ subsets: ['latin'] })
       <div className={styles.grid}>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/mission"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -69,7 +59,7 @@ const inter = Inter({ subsets: ['latin'] })
         </a>
 
         <a
-          href="/team"
+          href="/partners"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"

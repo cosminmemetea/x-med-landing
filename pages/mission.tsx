@@ -1,24 +1,23 @@
 import React from 'react';
 import styles from '../app/page.module.css'
+
 import { Inter } from '@next/font/google'
 import '../app/globals.css'
 import Head from 'next/head';
 const inter = Inter({ subsets: ['latin'] })
-import 'react-vertical-timeline-component/style.min.css';
-import Timeline from '@/components/Timeline';
-const Roadmap = () => {
+const Mission = () => {
   return (
     
      <main className={styles.main}>
       <Head>
-        <title>Roadmap ➤ x-edeum</title>
+        <title>Mission ➤ x-edeum</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta name="description" content="Motivated people together." />
         <link rel="icon" href="logo_vector-file.svg" />
       </Head>
       <div className={styles.description}>
         <p>
-        XΞDΞUM Roadmap 
+        XΞDΞUM Mission: Waiting is over, our technology streamlines healthcare for everyone. 
         </p>
         <div>
           <a
@@ -31,15 +30,55 @@ const Roadmap = () => {
         </div>
       </div>
  
-    <div className={styles.center}>
+    {/* <div className={styles.center}>
+    </div> */}
 
-    <Timeline></Timeline>
-    </div>
+ <div className={styles.grid}>
+
+        <a
+          href=""
+          className={styles.card}
+        //   target="_blank"
+        //   rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+           Streamlining Healthcare with AI and Blockchain<span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>Our AI-powered blockchain platform streamlines healthcare by reducing patient wait times. With a user-friendly mobile app, patients receive estimated wait times and can reserve their spot in line. Hospitals receive real-time data and can allocate resources efficiently.</p>
+        </a>
+
+        <a
+          href=""
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+            Enhancing Patient Experience and Efficiency<span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Our solution saves time and money for both patients and medical institutions. Trustworthy and secure, our platform ensures patient privacy with end-to-end encryption. AI technology optimizes wait times and reduces overcrowding.          </p>
+        </a>
+
+        <a
+          href=""
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+            Ensuring Trust and Security in Healthcare<span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Blockchain ensures secure and transparent data storage. With our innovative solution, medical institutions can improve patient satisfaction and operational efficiency.
+          </p>
+        </a>
+      </div>
 
        <div className={styles.grid}>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/mission"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -51,7 +90,7 @@ const Roadmap = () => {
         </a>
 
         <a
-          href="/team"
+          href="/partners"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -65,7 +104,7 @@ const Roadmap = () => {
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/roadmap"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -83,4 +122,4 @@ const Roadmap = () => {
   );
 }
 
-export default Roadmap;
+export default Mission;
