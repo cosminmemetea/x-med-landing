@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import styles from '../app/page.module.css'
@@ -38,7 +39,7 @@ const Core = () =>{
        >
         <div className={core_styles.swipItem}>
           <div className={core_styles.imgBox}>
-            <img src={`/imgs/xyndor.jpg`} alt="Slide 1" />
+            <Image src={`/imgs/xyndor.jpg`} alt="Slide 1"  width={584} height={712} />
           </div>
           <div className={core_styles.detail}>
               <h2>Xshann, the Powerhouse Pathfinder</h2>
@@ -47,7 +48,7 @@ const Core = () =>{
         </div>
         <div className={core_styles.swipItem}>
           <div className={core_styles.imgBox}>
-            <img src={`/imgs/warlord_584x712.jpeg`} alt="Slide 1" />
+            <Image src={`/imgs/warlord_584x712.jpeg`} alt="Slide 1" width={584} height={712}/>
           </div>
           <div className={core_styles.detail}>
               <h2>Daos, the Techno Titan</h2>
@@ -56,7 +57,7 @@ const Core = () =>{
         </div>
         <div className={core_styles.swipItem}>
           <div className={core_styles.imgBox}>
-            <img src={`/imgs/war_584x712.jpeg`} alt="Slide 1" />
+            <Image src={`/imgs/war_584x712.jpeg`} alt="Slide 1"  width={584} height={712} />
           </div>
           <div className={core_styles.detail}>
               <h2>Sun, the Design Dominator</h2>
@@ -64,7 +65,7 @@ const Core = () =>{
         </div>
         <div className={core_styles.swipItem}>
           <div className={core_styles.imgBox}>
-            <img src={`/imgs/jedi_584x712.jpeg`} alt="Slide 1" />
+            <Image src={`/imgs/jedi_584x712.jpeg`} alt="Slide 1"  width={584} height={712} />
           </div>
           <div className={core_styles.detail}>
               <h2>Bogh, the Cyber Conqueror</h2>
@@ -85,7 +86,7 @@ const Core = () =>{
           <h2 className={inter.className}>
            SMART MED®  <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Discover the passion and purpose that drives us, and know that you're in good hands with our commitment to simplify your health journey.</p>
+          <p className={inter.className}>Discover the passion and purpose that drives us, and know that you&rsquo;re in good hands with our commitment to simplify your health journey.</p>
         </a>
 
         <a
@@ -98,7 +99,7 @@ const Core = () =>{
             PARTNERS <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Get to know the compassionate and dedicated team behind, and feel confident in the care you'll receive.
+            Get to know the compassionate and dedicated team behind, and feel confident in the care you&rsquo;ll receive.
           </p>
         </a>
 

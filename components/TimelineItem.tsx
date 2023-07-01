@@ -30,7 +30,7 @@ const TimelineItem = (data: TimelineItemProps) => (
       (<a 
         href={data.link.url}
         target='_blank'
-        rel='noopener norefferer'>
+        rel='norefferer'>
         {data.link.text}</a>)
       }
       <span className={styles['circle']}></span>

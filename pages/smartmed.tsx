@@ -18,7 +18,7 @@ const Smartmed = () => {
       </Head>
       <div className={styles.description}>
         <p>
-        XΞDΞUM SmartMed&reg; {/* Update the &apos; character here */}
+        XΞDΞUM SmartMed&reg;
         </p>
         <div>
           <a
@@ -47,7 +47,7 @@ const Smartmed = () => {
           <h2 className={inter.className}>
            MISSION  <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Discover the passion and purpose that drives us, and know that you're in good hands with our commitment to simplify your health journey.</p>
+          <p className={inter.className}>Discover the passion and purpose that drives us, and know that you&rsquo;re in good hands with our commitment to simplify your health journey.</p>
         </a>
 
         <a
@@ -60,7 +60,7 @@ const Smartmed = () => {
             PARTNERS <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Get to know the compassionate and dedicated team behind, and feel confident in the care you'll receive.
+            Get to know the compassionate and dedicated team behind, and feel confident in the care you&rsquo;ll receive.
           </p>
         </a>
 
