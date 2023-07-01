@@ -18,7 +18,7 @@ const Smartmed = () => {
       </Head>
       <div className={styles.description}>
         <p>
-        XΞDΞUM SmartMed® 
+        XΞDΞUM SmartMed&reg; {/* Update the &apos; character here */}
         </p>
         <div>
           <a
