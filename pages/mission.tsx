@@ -42,9 +42,9 @@ const Mission = () => {
         //   rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-           Streamlining Healthcare with AI and Blockchain<span>-&gt;</span>
+           Improve Patient Experience Reduce Waitings Times<span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Our AI-powered blockchain platform streamlines healthcare by reducing patient wait times. With a user-friendly mobile app, patients receive estimated wait times and can reserve their spot in line. Hospitals receive real-time data and can allocate resources efficiently.</p>
+          <p className={inter.className}>Empower patients by providing them with a seamless and stress-free hospital experience. By reducing the time patients spend navigating the hospital, we aim to create an environment that is supportive and welcoming, with a focus on patient comfort and satisfaction.</p>
         </a>
 
         <a
@@ -54,10 +54,10 @@ const Mission = () => {
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Enhancing Patient Experience and Efficiency<span>-&gt;</span>
+           Increase hospital Reputation and Efficiency<span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Our solution saves time and money for both patients and medical institutions. Trustworthy and secure, our platform ensures patient privacy with end-to-end encryption. AI technology optimizes wait times and reduces overcrowding.          </p>
+          Revolutionize the healthcare industry by improving hospital efficiency and patient outcomes. Our goal is to create a world where hospitals run smoothly and efficiently, with patients receiving the care they need as quickly and easily as possible. By providing real-time navigation assistance, we aim to reduce wait times and streamline the hospital experience.</p>
         </a>
 
         <a
@@ -70,7 +70,7 @@ const Mission = () => {
             Ensuring Trust and Security in Healthcare<span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Blockchain ensures secure and transparent data storage. With our innovative solution, medical institutions can improve patient satisfaction and operational efficiency.
+           To build a more secure and trustworthy healthcare ecosystem. We believe that every patient has the right to privacy and that their personal data must be protected. By implementing robust data security measures, we aim to build trust with patients and healthcare providers, and create a more secure and transparent healthcare system for all.
           </p>
         </a>
       </div>

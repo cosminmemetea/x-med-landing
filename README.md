@@ -88,3 +88,8 @@ React Timeline in nextjs this is what I need Vertical progress bar with bookmark
 6. https://www.w3schools.com/howto/howto_css_timeline.asp --> this one is preffered maybe fully customizable
 7. https://reactjsexample.com/tag/responsive/
 8. https://www.w3schools.com/howto/howto_css_flip_card.asp 
+
+
+
+https://www.youtube.com/watch?v=-12T83gEos0 <- PASSIVE INCOME 
+
