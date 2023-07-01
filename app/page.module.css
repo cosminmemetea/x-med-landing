@@ -312,7 +312,7 @@
 .media {
   width: 85%;
   height: 85%;
-  background-color: yellow;
+  background-color: #000;
   border-radius: 50%;
   overflow: hidden;
   transition: all 1s ease;
