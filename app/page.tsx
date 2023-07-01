@@ -25,7 +25,6 @@ const inter = Inter({ subsets: ['latin'] })
       {/* <div className={styles.center}> */}
         <div className ={styles.service} >
                   <span className={styles.catInfo}> XΞDΞUM CORΞ </span>
-                  <span className={styles.cat}>    </span>
                   <div className={styles.media}> 
                   <a
                     href="/core"
