@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useState } from 'react';
 import styles from '../styles/Card.module.css';
 
@@ -18,7 +19,7 @@ const Card = ({ name, frontImage, backImage, className }: CardProps) => {
   return (
     <div className={`${styles.card} ${className}`} onClick={handleClick}>
       <div className={`${styles.face} ${styles.front}`}>
-        <img src={isFlipped ? backImage : frontImage} alt={name} />
+        <Image src={isFlipped ? backImage : frontImage} alt={name} />
         <div className={styles.title}>{name}</div>
       </div>
     </div>

@@ -28,9 +28,7 @@ const TimelineItem = (data: TimelineItemProps) => (
       <p>{data.text}</p>
       {data.link &&
       (<a 
-        href={data.link.url}
-        target='_blank'
-        rel='norefferer'>
+        target="_blank" rel="noreferrer">
         {data.link.text}</a>)
       }
       <span className={styles['circle']}></span>
