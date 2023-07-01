@@ -2,7 +2,7 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  exportPathMap: function () {
+  async generateStaticParams() {
     return {
       '/': { page: '/' },
     };
