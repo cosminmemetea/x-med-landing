@@ -8,6 +8,11 @@ const inter = Inter({ subsets: ['latin'] })
   return (
     
     <main className={styles.main}>
+        <title>Home ➤ x-edeum</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="description" content="Motivated people together." />
+        <link rel="icon" href="/logo_vector-file.svg" />
+ 
       <div className={styles.description}>
         <p> Revolutionize healthcare with effortless medical system navigation and care.
         </p>

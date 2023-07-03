@@ -1,9 +1,17 @@
 
-.timeline-container {
+ .timeline-container {
   display: flex;
   flex-direction: column;
   margin: 40px 0;
   position: relative; /* add position relative for the pseudo element to position properly */
+} 
+
+
+@media only screen and (max-width: 767px) {
+  .timeline-container {
+    flex-direction: column; /* Change the direction to column on smaller screens */
+    align-items: center; /* Center the cards vertically TODO to enhance the way the kids are moved and mirriored*/ 
+  }
 }
 
 .timeline-container::after {

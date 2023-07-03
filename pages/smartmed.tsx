@@ -14,7 +14,7 @@ const Smartmed = () => {
         <title>Smartmed ➤ x-edeum</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta name="description" content="Motivated people together." />
-        <link rel="icon" href="logo_vector-file.svg" />
+        <link rel="icon" href="/logo_vector-file.svg" />
       </Head>
       <div className={styles.description}>
         <p>
